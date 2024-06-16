@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title></title>
+  </head>
+  <body>
+    <main>
+      <form>
+        <h1>Cadastre-se</h1>
+        <div class="form-container">
+          <div class="form-col">
+            <label for="nome">Nome</label>
+            <input type="text" placeholder="Digite seu nome" id="nome" />
+            <label for="sobrenome">Sobrenome</label>
+            <input
+              type="text"
+              placeholder="Digite seu Sobrenome"
+              id="sobrenome"
+            />
+            <label for="email">E-mail</label>
+            <input
+              type="email"
+              placeholder="Digite seu melhor e-mail"
+              id="email"
+            />
+            <label for="whatsapp">WhatsApp</label>
+            <input type="tel" placeholder="Digite seu WhatsApp" id="whats" />
+            <label for="senha">Senha</label>
+            <input type="password" placeholder="Digite uma Senha" id="senha" />
+            <label for="confirmar-senha">Confirmação de Senha</label>
+            <input
+              type="password"
+              placeholder="Digite novamente sua Senha"
+              id="confirmar-senha"
+            />
+          </div>
+          <div class="form-col">
+            <label for="cep">CEP</label>
+            <input type="text" placeholder="Digite seu CEP" id="cep" />
+            <label for="rua">Rua</label>
+            <input type="text" placeholder="Digite sua Rua" id="rua" readonly />
+            <label for="complemento">Complemento</label>
+            <input
+              type="text"
+              placeholder="Digite um complemento"
+              id="complemento"
+            />
+            <label for="bairro">Bairro</label>
+            <input type="text" placeholder="Digite seu Bairro" id="bairro" />
+            <label for="cidade">Cidade</label>
+            <input type="text" placeholder="Digite sua Cidade" />
+            <label for="estado">Estado</label>
+            <input type="text" placeholder="Digite seu Estado" />
+          </div>
+        </div>
+
+        <div class="btn-sumit">
+          <input type="submit" value="Registrar" />
+        </div>
+      </form>
+    </main>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
